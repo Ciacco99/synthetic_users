@@ -1,0 +1,9 @@
+{
+  "tvd_uncorrected": 0.15428571428571428,
+  "tvd_corrected": 0.004688798596361621,
+  "improvement_tvd_pct": 96.96096387272858,
+  "kl_uncorrected": 0.07173128793851741,
+  "kl_corrected": 8.375940539017269e-05,
+  "seed_size": 150,
+  "synthetic_size": 700
+}
