@@ -2,7 +2,7 @@
 
 **Jacopo Ferro** | EPFL IC Master Thesis (PDM), 2026
 
-Supervised by Prof. Davide Bavato, EPFL and Laurent Rochat, Innovation Atelier
+Supervised by Prof. Davide Bavato, EPFL and Laurent Rochat, [Innovation Atelier](https://www.innovationatelier.com/ )
 
 ---
 
