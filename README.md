@@ -2,7 +2,7 @@
 
 **Jacopo Ferro** | EPFL IC Master Thesis (PDM), 2026
 
-Supervised by Prof. Davide Bavato, EPFL
+Supervised by Prof. Davide Bavato, EPFL and Laurent Rochat, Innovation Atelier
 
 ---
 
@@ -24,7 +24,8 @@ Traditional market research surveys are expensive, with typical concept tests re
 │   ├── 03b_seed_synthesis.py      # LLM synthesis on seed personas (m=50,100,150)
 │   ├── 04_correction.py           # Confusion matrix learning + correction
 │   ├── 05_bootstrap_ci.py         # Bootstrap confidence intervals (B=1000)
-│   └── 06_final_figures.py        # Generate all thesis figures
+│   ├── 06_final_figures.py        # Generate all thesis figures
+│   └── extra_exploration.py       # Extended dataset analysis (standalone)
 ├── data/
 │   ├── GACTT_RESULTS_ANONYMIZED_v2.csv   # Original GACTT dataset
 │   ├── coffee_data_cleaned.csv           # Cleaned version (output of script 01)
@@ -39,6 +40,7 @@ Traditional market research surveys are expensive, with typical concept tests re
     ├── bootstrap/                  # Bootstrap results, confidence intervals
     └── figures/
         ├── eda/                    # 5 exploratory data analysis figures (PNG)
+        ├── exploration/            # 10 extended analysis figures (PNG)
         └── final/                  # 5 thesis figures (PNG)
 ```
 
@@ -52,8 +54,8 @@ Traditional market research surveys are expensive, with typical concept tests re
 ### Setup
 
 ```bash
-git clone https://github.com/Ciacco99/pdm_project_final.git
-cd pdm_project_final
+git clone https://github.com/Ciacco99/synthetic_users.git
+cd synthetic_users
 pip install -r requirements.txt
 export OPENAI_API_KEY="your-key-here"
 ```
